@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/tarjetas.css">
+    <link rel="stylesheet" href="css/artistas.css">
+    <link rel="stylesheet" href="css/footer.css">
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>Vermeer</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Vermeer</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="arte y cultura.html" >Arte y cultura</a>
+				<a href="acerca de.html">Acerca de</a>
+				<a href="descarga.html">Descargar</a>
+			</nav>
+		</div>
+	</header>
+
+	<div>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">sienna martz</h3>
+				<p class="descripcion">
+					Sienna Martz es realmente una estrella en ascenso. No solo ha aparecido en publicaciones destacadas como The World of Interiors Magazine y Chronogram Magazine, por nombrar algunas, sino que también presentamos su arte textil maravillosamente lúdico en nuestro stand de SINGULART en Scope Miami
+				</p>
+				<button role="button" class="boton"><i class="fas fa-user"></i>Conocer mas</button>
+				<!----<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>---->
+			</div>
+		</div>
+	</div>
+    <div class="artistas">
+        <h2 class="texto" >Artistas Reconocidos</h2>
+    <div class="wrapper">
+        <div class="container">  
+          <div class="img-wrapper"><img src="img/artista1.jpeg" /></div>
+          <div class="details">
+            <h3>FERA MALDONADO</h3>
+            <h5>Artista</h5>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="img-wrapper"><img src="img/artista2.jpeg" /></div>
+          <div class="details">
+            <h3>MELISSA SANTAMARÍA</h3>
+            <h5>Pintor y fotografo</h5>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="img-wrapper"><img src="img/artista3.jpeg" /></div>
+          <div class="details">
+            <h3>Aziseh Emmanuel</h3>
+            <h5>Artista y pintor</h5>
+            <div class="social-icons">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="Carousel">
+        <h2 >Obras del momento</h2>
+        <div class="slick-list" id="slick-list">
+            <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+            </button>
+            <div class="slick-track" id="track">
+                <div class="slick">
+                    <div>
+                        <a href="artistas.html">
+                            <h4><small>MELISSA SANTAMARÍA</small>Obra</h4>
+                            <picture>
+                                <img src="img/melissa1.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>sienna martz</small>Obra</h4>
+                            <picture>
+                                <img src="img/ciena1.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Cihan Bektas</small>Obra</h4>
+                            <picture>
+                                <img src="img/cihan.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Julia A. Etedi</small>Obra</h4>
+                            <picture>
+                                <img src="img/julia.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>MELISSA SANTAMARÍA</small>Obra</h4>
+                            <picture>
+                                <img src="img/melissa2.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Aziseh Emmanuel</small>Obra</h4>
+                            <picture>
+                                <img src="img/azise.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Clare Thatcher</small>Obra</h4>
+                            <picture>
+                                <img src="img/clare.jpg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Nadia Attura</small>Obra</h4>
+                            <picture>
+                                <img src="img/nadia.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Guillermo y Laurie</small>Obra</h4>
+                            <picture>
+                                <img src="img/gillermo.jpeg" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+                <div class="slick">
+                    <div>
+                        <a href="/">
+                            <h4><small>Ousmane Derme</small>Obra</h4>
+                            <picture>
+                                <img src="img/odume.jpg.crdownload" alt="Image">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+               
+            <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+            </button>
+        </div>
+    </div>
+
+
+   
+    
+
+
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/logo1.png" style="height: 200px;" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>somos una plataforma que ofrece una experiencia virtual y con costos accesibles</p>
+                <p>donde podra tener acceso a todo tipo de presentaciones culturales</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook-official"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>SLee Dw</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
+
+
+
+
+
+    <script defer src="js/main.js"></script>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
